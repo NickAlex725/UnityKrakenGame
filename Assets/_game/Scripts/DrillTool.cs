@@ -53,7 +53,7 @@ public class DrillTool : MonoBehaviour
                 if (drillable != null && hit.collider.GetComponent<Health>() != null)
                 {
                     drillable.EnableHealthBar(hit.point, _camera.transform);
-                    if(Mouse.current.leftButton.wasPressedThisFrame)
+                    if(Mouse.current.leftButton.isPressed)
                     {
                         effect = Instantiate(_drillEffect);
                         effect.transform.position = hit.point;

@@ -1173,8 +1173,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8345070699079395522, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47621
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345070699079395522, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.41607
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345070699079395522, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.571
       objectReference: {fileID: 0}
     - target: {fileID: 8345070699079395522, guid: 09aade0ecefd01e4b8f7661acf64f5c2,
         type: 3}
@@ -1702,6 +1712,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerCapsule
       objectReference: {fileID: 0}
+    - target: {fileID: 8213769554415051385, guid: 2c80b137f7218c84682a8df47ee42b47,
+        type: 3}
+      propertyPath: _drillEffect
+      value: 
+      objectReference: {fileID: 2397397601063078129, guid: a899c483efb420542b8dae844484e14c,
+        type: 3}
     - target: {fileID: 8213769554415051387, guid: 2c80b137f7218c84682a8df47ee42b47,
         type: 3}
       propertyPath: m_LocalPosition.x
