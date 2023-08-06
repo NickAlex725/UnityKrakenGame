@@ -18,6 +18,7 @@ public class Drillable : MonoBehaviour
         " if not then it's gained when health is 0")]
     [SerializeField] bool _gainOverTime = true;
 
+    [Header("Drill UI")]
     [SerializeField] Image _progressBar;
 
     [SerializeField] float _progressBarMoveSpeed;
