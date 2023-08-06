@@ -53,13 +53,14 @@ public class DrillTool : MonoBehaviour
                 if (drillable != null && hit.collider.GetComponent<Health>() != null)
                 {
                     drillable.EnableHealthBar(hit.point, _camera.transform);
-                    if(Mouse.current.leftButton.isPressed)
+                    if(Mouse.current.leftButton.wasPressedThisFrame)
                     {
                         effect = Instantiate(_drillEffect);
-                        effect.transform.position = hit.point;
                     }
+                    effect.transform.position = hit.point;
+                    effect.transform.LookAt(this.transform);
                     //timer for rate of gain
-                    if(_currentDelayProgress <= 0)
+                    if (_currentDelayProgress <= 0)
                     {
                         //do damage to drillable game object
                         drillable.DrillDamage(_damagePerDelay, _player);

@@ -1716,7 +1716,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _drillEffect
       value: 
-      objectReference: {fileID: 2397397601063078129, guid: a899c483efb420542b8dae844484e14c,
+      objectReference: {fileID: 2800365307245775524, guid: a899c483efb420542b8dae844484e14c,
         type: 3}
     - target: {fileID: 8213769554415051387, guid: 2c80b137f7218c84682a8df47ee42b47,
         type: 3}
